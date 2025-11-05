@@ -1,0 +1,7 @@
+setup.py
+frnn/__init__.py
+frnn/frnn.py
+frnn.egg-info/PKG-INFO
+frnn.egg-info/SOURCES.txt
+frnn.egg-info/dependency_links.txt
+frnn.egg-info/top_level.txt
