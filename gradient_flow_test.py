@@ -1,5 +1,5 @@
 import torch
-from fGRU_frnn import FractionalRNN
+from frnn import FractionalRNN
 
 # Setup
 INPUT_SIZE = 10
