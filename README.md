@@ -57,6 +57,22 @@ cell = FractionalGRUCell(input_size, hidden_size)
 print("\nFractionalGRUCell:\n", cell)
 ```
 
+## Running Tests
+
+This project includes a simple test to verify that gradients are flowing correctly through the custom `alpha` parameter in the `FractionalGRUCell`. This is a crucial check to ensure that the fractional component is learnable.
+
+To run the test, simply execute the `gradient_flow_test.py` script:
+
+```bash
+python gradient_flow_test.py
+```
+
+A successful run will output:
+
+```
+✅ SUCCESS: Alpha parameter has flowing gradients! The fractional math is working.
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
